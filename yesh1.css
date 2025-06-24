@@ -147,3 +147,19 @@
 .footer .social-icons a:hover {
   color: #007bff;
 }
+.text-justify {
+  text-align: justify;
+}
+.contact-form {
+      max-width: 600px;
+      margin: 50px auto;
+    }
+    .contact-form textarea {
+      resize: vertical;
+    }
+.fixed-height-card {
+      height: 300px; /* Set desired height */
+    }
+    .fixed-height-card .card-body {
+      overflow-y: auto; /* Adds scroll if content overflows */
+    }
